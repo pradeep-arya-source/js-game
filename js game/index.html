@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock-Paper-Scissors</title>
+</head>
+<body>
+
+    <!-- HEADING FJOR THE FIRST PART -->
+    <h1>LET'S PLAY THIS GAME FOR FUN WITH COMPUTER</h1>
+    <!-- NOW WE ADD A DIV FOR USER CHOICES -->
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="./img/rock.png" alt="">
+        </div>
+        <div class="choice" id="paper">
+            <img src="./img/paper.png" alt="">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="./img/scissors.png" alt="">
+        </div>
+    </div>
+    <!-- NOW WE ADD SCORE BOARDE FOR GAME SCORE  -->
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>USER</p>
+        </div>
+        <div class="score">
+            <p id="computer-score">0</p>
+            <p>COMPUTER</p>
+        </div>
+    </div>
+    <!-- NOW WE ADD MSG BOX FOR SHOW YOU SOME MSG LIKE YOU WIN THE GAME , YOU LOSE THE GAME  -->
+    <div class="msg-container">
+        <p id="msg">PLAY YOU MOVE</p>
+    </div>
+
+
+
+    <!-- NOW WE LINK SCRIPT FILE  -->
+    <script src="game.js"></script>
+</body>
+</html>
